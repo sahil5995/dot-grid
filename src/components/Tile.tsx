@@ -1,12 +1,12 @@
 import { useRef, useEffect } from "react";
 import "./Tile.css";
 
-type ItemProps = {
+type TilesProps = {
   id: number;
   tabIndex: number;
 };
 
-function Tile(props: ItemProps) {
+function Tile(props: TilesProps) {
   const { tabIndex } = props;
   const ref = useRef<HTMLDivElement>(null);
 
