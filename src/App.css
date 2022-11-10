@@ -1,0 +1,11 @@
+.main {
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}

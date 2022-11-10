@@ -1,0 +1,11 @@
+.tile {
+  position: relative;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+}
+
+.dot {
+  color: red;
+  font-size: 40px;
+}
